@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=lassoFill
+X-Python-2-Compatible=false
+X-Krita-Manual=Manual.html
+Name=Lasso Fill
+Comment=Preenche a selecao a mao livre ao soltar a caneta. Tecla N por padrão liga/desliga o plug-in.

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Lasso Fill</title>
+</head>
+<body>
+<h3>Lasso Fill</h3>
+<p>
+    Plugin que imita o <b>Lasso Fill do Clip Studio Paint</b>. Voc&#234; desenha o contorno
+    com a Sele&#231;&#227;o a M&#227;o Livre e, ao soltar a caneta, a &#225;rea &#233; preenchida
+    automaticamente com a cor selecionada.
+</p>
+
+<h3>Como usar</h3>
+<p>
+    1. Escolha a <b>cor de selecionada</b> que quer usar no preenchimento. <br />
+    2. Selecione a camada onde quer pintar. <br />
+    3. Escolha a ferramenta <b>Sele&#231;&#227;o a M&#227;o Livre</b> (Freehand Selection). <br />
+    4. Desenhe o contorno. A linha pontilhada aparece enquanto voc&#234; desenha, sem pintar nada ainda. <br />
+    5. Solte a caneta: a &#225;rea &#233; preenchida e a sele&#231;&#227;o &#233; removida. <br />
+</p>
+
+<h3>Ligar e desligar</h3>
+<ul>
+    <li>Aperte a tecla <b>N</b> para <b>ligar</b> ou <b>desligar</b>.</li>
+    <li>Uma mensagem aparece na barra de status: Lasso Fill: LIGADO ou DESLIGADO.</li>
+    <li>Tamb&#233;m d&#225; pelo menu Ferramentas -> Scripts -> Lasso Fill (liga/desliga).</li>
+    <li>O plugin sempre come&#231;a <b>ligado</b> quando o Krita abre.</li>
+</ul>
+
+<h3>Dicas</h3>
+<ul>
+    <li>A tecla N &#233; ignorada enquanto voc&#234; digita em um campo de texto.</li>
+    <li>Para desfazer um preenchimento, use <b>Ctrl+Z</b>.</li>
+    <li>Para trocar a tecla, edite a linha <b>TECLA = Qt.Key_N</b> no arquivo __init__.py.</li>
+</ul>
+
+<h3>Solu&#231;&#227;o de problemas</h3>
+<p>
+    <b>N&#227;o preenche:</b> confira se o plugin est&#225; ligado (aperte N e veja a mensagem)
+    e se a ferramenta ativa &#233; a Sele&#231;&#227;o a M&#227;o Livre. <br /> <br />
+    <b>Plugin n&#227;o carrega:</b> veja o arquivo lassofill_log.txt na sua pasta de usu&#225;rio. <br />
+</p>
+
+<h3>NOTA</h3>
+<p>
+    Eu queria muito ter uma ferramenta igual a do lasso fill do CSP, tentei muitas vezes usar o Shapes Fill do Krita e tmbm tentei o Enclose and Fill Tool, mas n&#227;o estava satisfeito, pesquisei em varios lugares pra mas sem sucesso, ent&#227;o decidi criar um eu mesmo, espero que quem for usar aproveite. <br /> <br />
+</p>
+
+</body>
+</html>
