@@ -17,16 +17,15 @@ Uma mensagem aparece na barra de status: Lasso Fill: LIGADO ou DESLIGADO.
 Também dá pelo menu Ferramentas -> Scripts -> Lasso Fill (liga/desliga).
 O plugin sempre começa ligado quando o Krita abre.
 
-Dicas:
-
+Dicas:  
 A tecla N é ignorada enquanto você digita em um campo de texto.
 Para desfazer um preenchimento, use Ctrl+Z.
 Para trocar a tecla, edite a linha TECLA = Qt.Key_N no arquivo __init__.py.
 
-Solução de problemas:
+Solução de problemas:  
 
 Não preenche: confira se o plugin está ligado (aperte N e veja a mensagem) e se a ferramenta ativa é a Seleção a Mão Livre.
 Plugin não carrega: veja o arquivo lassofill_log.txt na sua pasta de usuário.
 
-NOTA:
+NOTA:  
 Eu queria muito ter uma ferramenta igual a do lasso fill do CSP, tentei muitas vezes usar o Shapes Fill do Krita e tmbm tentei o Enclose and Fill Tool, mas não estava satisfeito, pesquisei em varios lugares pra mas sem sucesso, então decidi criar um eu mesmo, espero que quem for usar aproveite.
